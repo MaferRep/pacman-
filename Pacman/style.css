@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080171867643584624/fondoo.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: black; 
+    background-repeat: no-repeat;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid blue;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080167526899646504/punto.png);
+    background-size: 100% 100%; 
+    
+
+}
+
+.wall {
+    background-color: black;
+}
+
+.power-pellet {
+    background-color: rgb(253, 185, 148);
+    border-radius: 10px;
+}
+
+.red {
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080158265616371812/200w_1.gif);
+    background-size: 100% 100%;
+}
+
+.pink {
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080158893818249236/200w_2.gif);
+    background-size: 100% 100%; 
+}
+
+.cyan {
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080157750002196561/d5sab38-95b905e1-2098-4e1f-8c19-141528b16e77.gif);
+    background-size: 100% 100%; 
+}
+
+.orange {
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080159470421815296/d5sab7r-10689df3-292d-461d-bd70-a7d721baf9ec.gif);
+    background-size: 100% 100%; 
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/916824804131213352/1080157358526824508/58bcf480-ea12-4325-a2dc-19e3fdd74dba.gif);
+    background-size: 100% 100%;
+}
+
+
+.score{
+    background-color: #2ecc71;
+}
